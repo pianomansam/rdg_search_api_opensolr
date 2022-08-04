@@ -1,0 +1,9 @@
+type: module
+name: 'RDG Search API opensolr'
+description: 'Offers an implementation of the Search API that uses opensolr 3rd party service.'
+core_version_requirement: ^8.8 || ^9
+php: 7.2
+package: Search
+dependencies:
+  - drupal:system (>=8.8)
+  - search_api_solr:search_api_solr

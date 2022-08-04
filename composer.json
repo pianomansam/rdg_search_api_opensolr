@@ -1,0 +1,15 @@
+{
+    "name": "pianomansam/rdg_search_api_opensolr",
+    "require": {
+        "php": ">=7.1",
+        "drupal/search_api_solr": "^4.1"
+      },
+      "require-dev": {},
+      "extra": {
+        "drush": {
+          "services": {
+            "drush.services.yml": "^9"
+          }
+        }
+      }
+}
